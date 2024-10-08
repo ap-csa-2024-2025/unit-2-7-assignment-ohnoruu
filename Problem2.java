@@ -7,13 +7,13 @@ public class Problem2
     Scanner scan = new Scanner(System.in);
     Integer x;
     Integer y;
-
-    System.out.println(x + y);
+    
     System.out.println("Enter values:");
-    x = scan.nextLong();
+    x = scan.nextInt();
     y = scan.nextInt();
+    System.out.println(x + y);
 
-    Double avg = (double)(x + y / 2);
+    Double avg = (((double)x + y) / 2);
     System.out.println("Average of " + x + " and " + y + " is " + avg);
   }
 }
